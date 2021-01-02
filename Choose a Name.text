@@ -1,0 +1,18 @@
+name = "Name: "
+name = input(name).lower()
+
+
+if len(name) < 3: #if the name is less then 3 characters long, you will need to change your name
+    print("name is too short, change your name. ")
+elif len(name) > 50: #if the name is more then 50 characters long, you will need to change your name
+    print("name is too long, change your name. ")
+elif len(name) == 6: #if the name is 6 characters long, you will need to change your name.
+    print("change your name please. ")
+elif name == "fuck":
+    print("Your name is inappropriate")
+elif name == "shit":
+    print("Your name is inappropriate")
+elif name == "bitch":
+    print("Your name is inappropriate")
+else:
+    print("Name looks good! ") #if your name is not any of the above, your chosen name is good.
